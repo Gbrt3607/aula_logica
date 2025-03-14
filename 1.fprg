@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1"/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-14 09:49:15 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODU0OzIwMjUtMDMtMTQ7IjA5OjIyOjQ0ICI7Mjg2MQ=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODU0OzIwMjUtMDMtMTQ7IjA5OjQ5OjE1ICI7MTsyOTc2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, soma, subtra&#231;&#227;o, multiplica&#231;&#227;o, divis&#227;o" type="Real" array="False" size=""/>
+            <output expression="&quot;informe uma nota&quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;informe outra nota&quot;" newline="True"/>
+            <input variable="n2"/>
+            <assign variable="soma" expression="n1+n2"/>
+            <output expression="&quot;o resultado da soma deu: &quot;&amp;soma" newline="True"/>
+            <assign variable="subtra&#231;&#227;o" expression="n1-n2"/>
+            <output expression="&quot;o resultado da subtra&#231;&#227;o deu: &quot;&amp;subtra&#231;&#227;o" newline="True"/>
+            <assign variable="multiplica&#231;&#227;o" expression="n1*n2"/>
+            <output expression="&quot;o resultado da multiplica&#231;&#227;o deu: &quot;&amp;multiplica&#231;&#227;o" newline="True"/>
+            <assign variable="divis&#227;o" expression="n1/n2"/>
+            <output expression="&quot;o resultado da divis&#227;o deu: &quot;&amp;divis&#227;o" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

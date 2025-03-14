@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="7"/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-14 11:16:02 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODU0OzIwMjUtMDMtMTQ7IjEwOjU5OjAxICI7Mjg1Ng=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODU0OzIwMjUtMDMtMTQ7IjExOjE2OjAyICI7MjsyOTYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sb, ts, resultado, bonus, bonus1" type="Real" array="False" size=""/>
+            <output expression="&quot;informe seu sal&#225;rio&quot;" newline="True"/>
+            <input variable="sb"/>
+            <output expression="&quot;informe o tempo trabalhado&quot;" newline="True"/>
+            <input variable="ts"/>
+            <assign variable="bonus" expression="sb/ts"/>
+            <output expression="&quot;o valor de bonus &#233;: &quot;&amp;bonus" newline="True"/>
+            <assign variable="bonus1" expression="sb+bonus"/>
+            <output expression="&quot;seu novo sal&#225;rio &#233;: &quot;&amp;bonus1" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

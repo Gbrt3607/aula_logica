@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="2"/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-14 09:22:36 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODU0OzIwMjUtMDMtMTQ7IjA5OjA4OjAzICI7Mjg2MA=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODU0OzIwMjUtMDMtMTQ7IjA5OjIyOjM2ICI7MTsyOTcw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3, soma, m&#233;dia" type="Real" array="False" size=""/>
+            <output expression="&quot;informe a primeira nota&quot;" newline="True"/>
+            <input variable="n1"/>
+            <if expression="n1&gt;10">
+                <then>
+                    <output expression="&quot;nota invalida&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;informe a segunda nota&quot;" newline="True"/>
+                    <input variable="n2"/>
+                    <if expression="n2&gt;10">
+                        <then>
+                            <output expression="&quot;nota invalida&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;informe a terceira nota&quot;" newline="True"/>
+                            <input variable="n3"/>
+                            <if expression="n3&gt;10">
+                                <then>
+                                    <output expression="&quot;nota invalida&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <assign variable="soma" expression="n1+n2+n3"/>
+                                    <output expression="&quot; a soma das notas &#233;: &quot;&amp;soma" newline="True"/>
+                                    <assign variable="m&#233;dia" expression="soma/3"/>
+                                    <output expression="&quot; a m&#233;dia final &#233;: &quot;&amp;m&#233;dia" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

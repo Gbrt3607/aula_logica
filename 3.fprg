@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="5"/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-14 10:24:17 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODU0OzIwMjUtMDMtMTQ7IjEwOjE0OjMxICI7Mjg1MA=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODU0OzIwMjUtMDMtMTQ7IjEwOjI0OjE3ICI7MjsyOTY0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3, n4" type="Integer" array="False" size=""/>
+            <output expression="&quot;informe quantos graus C&#176; est&#225; fazendo hoje?&quot;" newline="True"/>
+            <input variable="n1"/>
+            <assign variable="n2" expression="n1*9"/>
+            <assign variable="n3" expression="n2/5"/>
+            <assign variable="n4" expression="n3+32"/>
+            <output expression="&quot; a temperatura em F&#176; &#233;: &quot;&amp;n4" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

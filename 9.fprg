@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="9"/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-14 10:58:53 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODU0OzIwMjUtMDMtMTQ7IjEwOjMyOjUyICI7Mjg1Mw=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODU0OzIwMjUtMDMtMTQ7IjEwOjU4OjUzICI7MTsyOTcw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, au, sb, percentual" type="Real" array="False" size=""/>
+            <output expression="&quot;informe seu sal&#225;rio&quot;" newline="True"/>
+            <input variable="sb"/>
+            <output expression="&quot;informe quanto % sera o seu aumento&quot;" newline="True"/>
+            <input variable="au"/>
+            <assign variable="n1" expression="sb/100"/>
+            <assign variable="percentual" expression="n1*au"/>
+            <assign variable="n2" expression="sb+percentual"/>
+            <output expression="&quot; a porcentagem do seu sal&#225;rio &#233; de: &quot;&amp;percentual" newline="True"/>
+            <output expression="&quot;seu novo sal&#225;rio &#233;: RS$&quot;&amp;n2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

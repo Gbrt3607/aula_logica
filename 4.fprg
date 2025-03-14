@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="4"/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-14 10:00:20 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODU0OzIwMjUtMDMtMTQ7IjA5OjQ5OjQ4ICI7Mjg3NA=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODU0OzIwMjUtMDMtMTQ7IjA5OjUyOjE4ICI7MTtEZXZfMW9fQW5vO0ROUzExODEyNjA4NTQ7MjAyNS0wMy0xNDsiMDk6MjI6NDQgIjs1ODkz"/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODU0OzIwMjUtMDMtMTQ7IjEwOjAwOjIwICI7MTsyOTUx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, resultado" type="Integer" array="False" size=""/>
+            <output expression="&quot;informe a base do retangulo&quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;informe a altura&quot;" newline="True"/>
+            <input variable="n2"/>
+            <assign variable="resultado" expression="n1*n2"/>
+            <output expression="&quot; a &#225;rea do retangulo deu: &quot;&amp;resultado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-14 01:22:14 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODU0OzIwMjUtMDMtMTQ7IjAxOjE5OjI5ICI7Mjg2Mg=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODU0OzIwMjUtMDMtMTQ7IjAxOjIyOjE0ICI7MTsyOTU4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="t, d, v, result" type="Integer" array="False" size=""/>
+            <output expression="&quot;informe a distancia&quot;" newline="True"/>
+            <input variable="d"/>
+            <output expression="&quot;informe o tempo&quot;" newline="True"/>
+            <input variable="t"/>
+            <assign variable="v" expression="d/t"/>
+            <output expression="&quot;a velocidade media &#233;: &quot;&amp;v" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
